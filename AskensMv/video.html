@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Videor</title>
+    <link rel="stylesheet" href="videocss.css">
+</head>
+
+<body>
+    <div class="banner"></div>
+    <ul>
+        <li><img src="Bilder/askens-mv-logga-png.png" width="70" href="home.html" </li>
+            <li><a href="home.php">Hem</a></li>
+            <li><a href="#">Nyheter</a></li>
+            <li><a href="#">Filmer</a></li>
+            <li style="float:right"><a href="ommig.html">Om Asken</a></li>
+            <li style="float:right"><a href="#">Tjänster</a></li>
+            <li style="float:right"><a href="#">Goalie Camps</a></li>
+
+    </ul>
+    <div>
+        <h6>.</h6>
+    </div>
+
+    <!--- wrapper --->
+
+    <div id="wrapper">
+        <main>
+
+            <!--- videoplayer --->
+
+
+            <div class="kontainer">
+                <header>Övningar &amp; Målvaktsgrunder</header>
+                <article>
+                    <div id="videoplayer">
+                        <video id="currentvideo" controls width="754px" height="480px" src="Video/salming%201.mp4"></video>
+                        <header id="videotitle">
+                            <h2>Överarmskast</h2>
+                        </header>
+                    </div>
+                    <div class="videos">
+                        <div class="video">
+                            <video width="210px" height="174px" src="Video/salming%201.mp4" onclick="playvideo('Video/salming%201.mp4','ÖverarmsKast')"></video>
+                            <h2>Överarmskast</h2></div>
+
+                        <div class="video">
+                            <video width="210px" height="174px" src="Video/salming%202.mp4" onclick="playvideo('Video/salming%202.mp4','UnderarmsKast')"></video>
+                            <h2>Undearmskast</h2></div>
+
+                    </div>
+        </main>
+        </div>
+        </article>
+    </div>
+
+    <!--- script -->
+    <script src="videoplayer.js"></script>
+
+</body>
+
+</html>

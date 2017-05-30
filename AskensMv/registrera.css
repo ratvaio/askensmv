@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    margin-left: 25%;
+    width: 50%;
+    background-color: black;
+}
+
+button {
+    background-color: #ffffff;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 25px;
+}
+button:hover {
+    opacity: 0.8;
+}
+input[type=text], input[type=email], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+fieldset{
+    border-radius: 60px;
+    color: white;
+}
+legend{
+    font-family: cursive;
+    color:white;
+}
+label{
+    font-family: cursive;
+    color:white;
+}
+img.avatar {
+    width: 20%;
+    border-radius: 30%;
+}
